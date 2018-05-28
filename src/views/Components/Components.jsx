@@ -12,45 +12,18 @@ import Footer from "components/Footer/Footer.jsx";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import Grid from "material-ui/Grid";
-import Button from "components/CustomButtons/Button.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 // sections for this page
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import SectionBasics from "./Sections/SectionBasics.jsx";
-import SectionNavbars from "./Sections/SectionNavbars.jsx";
-import SectionTabs from "./Sections/SectionTabs.jsx";
-import SectionPills from "./Sections/SectionPills.jsx";
-import SectionNotifications from "./Sections/SectionNotifications.jsx";
 import SectionTypography from "./Sections/SectionTypography.jsx";
-import SectionJavascript from "./Sections/SectionJavascript.jsx";
-import SectionCarousel from "./Sections/SectionCarousel.jsx";
-import SectionCompletedExamples from "./Sections/SectionCompletedExamples.jsx";
-import SectionLogin from "./Sections/SectionLogin.jsx";
-import SectionExamples from "./Sections/SectionExamples.jsx";
-import SectionDownload from "./Sections/SectionDownload.jsx";
 import IconButton from "components/CustomButtons/IconButton.jsx";
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
-import image from "assets/img/faces/avatar.jpg";
-
-import Code from "@material-ui/icons/Code";
 import ShortText from "@material-ui/icons/ShortText";
 import Work from "@material-ui/icons/Work";
 import GroupWork from "@material-ui/icons/GroupWork";
 import AccountCircle from "@material-ui/icons/AccountCircle";
 import Archive from "@material-ui/icons/Archive";
 import NavPills from "components/NavPills/NavPills.jsx";
-
-import studio1 from "assets/img/examples/studio-1.jpg";
-import studio2 from "assets/img/examples/studio-2.jpg";
-import studio3 from "assets/img/examples/studio-3.jpg";
-import studio4 from "assets/img/examples/studio-4.jpg";
-import studio5 from "assets/img/examples/studio-5.jpg";
-import work1 from "assets/img/examples/olu-eletu.jpg";
-import work2 from "assets/img/examples/clem-onojeghuo.jpg";
-import work3 from "assets/img/examples/cynthia-del-rio.jpg";
-import work4 from "assets/img/examples/mariya-georgieva.jpg";
-import work5 from "assets/img/examples/clem-onojegaw.jpg";
-
 import liberation from "assets/img/screen-shot.jpg";
 import bloodnr from "assets/img/screen-shot-bldrnr.jpg";
 import strbcks from "assets/img/str-bucks.jpg";

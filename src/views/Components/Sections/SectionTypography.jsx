@@ -10,7 +10,6 @@ import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import typographyStyle from "assets/jss/material-kit-react/views/componentsSections/typographyStyle.jsx";
 import image from "assets/img/faces/github-profile.jpg";
-import IconButton from "components/CustomButtons/IconButton.jsx";
 class SectionTypography extends React.Component {
   render() {
     const { classes } = this.props;

@@ -11,42 +11,11 @@ import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
-import Grid from "material-ui/Grid";
-import Button from "components/CustomButtons/Button.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 // sections for this page
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import SectionBasics from "views/Components/Sections/SectionBasics.jsx";
-import SectionNavbars from "views/Components/Sections/SectionNavbars.jsx";
-import SectionTabs from "views/Components/Sections/SectionTabs.jsx";
-import SectionPills from "views/Components/Sections/SectionPills.jsx";
-import SectionNotifications from "views/Components/Sections/SectionNotifications.jsx";
-import SectionJavascript from "views/Components/Sections/SectionJavascript.jsx";
-import SectionCarousel from "views/Components/Sections/SectionCarousel.jsx";
-import SectionCompletedExamples from "views/Components/Sections/SectionCompletedExamples.jsx";
-import SectionLogin from "views/Components/Sections/SectionLogin.jsx";
-import SectionExamples from "views/Components/Sections/SectionExamples.jsx";
-import SectionDownload from "views/Components/Sections/SectionDownload.jsx";
 import IconButton from "components/CustomButtons/IconButton.jsx";
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
-import image from "assets/img/faces/avatar.jpg";
-
-import Code from "@material-ui/icons/Code";
-import ShortText from "@material-ui/icons/ShortText";
-import Work from "@material-ui/icons/Work";
-import GroupWork from "@material-ui/icons/GroupWork";
-import Archive from "@material-ui/icons/Archive";
-import NavPills from "components/NavPills/NavPills.jsx";
-
-import studio1 from "assets/img/examples/studio-1.jpg";
-import studio2 from "assets/img/examples/studio-2.jpg";
-import studio3 from "assets/img/examples/studio-3.jpg";
-import studio4 from "assets/img/examples/studio-4.jpg";
-import studio5 from "assets/img/examples/studio-5.jpg";
-
-import liberation from "assets/img/screen-shot.jpg";
-import bloodnr from "assets/img/screen-shot-bldrnr.jpg";
-import strbcks from "assets/img/str-bucks.jpg";
 
 
 class IntellectualProperty extends React.Component {
@@ -69,7 +38,6 @@ class IntellectualProperty extends React.Component {
 
   render() {
     const { classes, ...rest } = this.props;
-    const navImageClasses = classNames(classes.imgRounded, classes.imgGallery);
     
     return (
       <div>
