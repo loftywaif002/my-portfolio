@@ -269,7 +269,7 @@ class Components extends React.Component {
                                           using friendly UI and the order gets placed to the 3 node MongoDB cluster hosted 
                                           in AWS instance. The communication from frontend to backend is happeing through 
                                           an open source technology called KongAPI gateway (https://getkong.org/) that is 
-                                          using a 3 node cassandra cluster in the to store the data.
+                                          using a 3 node cassandra cluster to store api interaction the data.
                                          </p> 
                                          <br />
                                           <a className={ this.state.hover ? classes.readMoreHover : classes.readMore}
