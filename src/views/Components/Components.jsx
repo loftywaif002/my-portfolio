@@ -97,7 +97,7 @@ class Components extends React.Component {
                 <GridItem xs={12} md={8} className={classes.navWrapper}>
                   <NavPills
                     alignCenter
-                    color="primary"
+                    color="info"
                     tabs={[
                       {
                         tabButton: "Recent Work",
