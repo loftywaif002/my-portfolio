@@ -128,6 +128,31 @@ const componentsStyle = {
   },
   textCenter: {
     textAlign: "center"
+  },
+  "@media screen and (max-width: 960px)": {
+    title: {
+    fontSize: "1.2rem",
+    fontWeight: "600",
+    display: "inline-block",
+    position: "relative",
+    margin: "0px 39% 0"
+    },
+    subtitle: {
+    fontSize: "0.8rem",
+    maxWidth: "100%",
+    textAlign: "center",
+    margin: "10px 0 0"
+   }
+  },
+  "@media screen and (min-width: 960px) and (max-width:1207px)": {
+    title: {
+    fontSize: "1.2rem",
+    fontWeight: "600",
+    textAlign: "center",
+    display: "inline-block",
+    position: "relative",
+    margin: "0px 53px 0"
+    }
   }
 };
 
