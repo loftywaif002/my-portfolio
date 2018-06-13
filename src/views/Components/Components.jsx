@@ -140,7 +140,7 @@ class Components extends React.Component {
                               </a>                                                         
                                <div clasName={classes.postBody}>
                                <div className={classes.content}>
-                                  <h4 className={classes.postSubTitle}>E-Commerce App</h4>
+                                  <h4 className={classes.postSubTitle}>Intranet Web App</h4>
                                   <h4 className={classes.postSubTitle}>Custom Wordpress Sites</h4>
                                   <h4 className={classes.postSubTitle}>
                                   <a href="https://www.amax.com">www.amax.com</a> &nbsp;
@@ -265,7 +265,7 @@ class Components extends React.Component {
                                         </Grid> 
                                          <h4 className={classes.postSubTitle}>Description</h4>
                                          <p>
-                                          Ecommerce webapplication based on Node.js. Users can order hot or cold beverages 
+                                          Internal web application based on React.js. Users can order hot or cold beverages 
                                           using friendly UI and the order gets placed to the 3 node MongoDB cluster hosted 
                                           in AWS instance. The communication from frontend to backend is happeing through 
                                           an open source technology called KongAPI gateway (https://getkong.org/) that is 
