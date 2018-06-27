@@ -146,7 +146,7 @@ class Components extends React.Component {
                                   <a href="https://www.amax.com">www.amax.com</a> &nbsp;
                                   <a href="https://www.amax.ai">www.amax.ai</a>
                                   </h4>
-                                <h2 className={classes.postTitle}>E-Commerce</h2>
+                                <h2 className={classes.postTitle}>Intranet Web App</h2>
                                 <h4 className={classes.postSubTitle}>Tech Stack (React.js+MongoDb+Node.js)</h4>
                                  <ul>
                             <li>Involved in Requirements gathering, analysis and design and documentation as the application was started from scratch</li>
