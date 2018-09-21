@@ -43,7 +43,7 @@ function HeaderLinks({ ...props }) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://drive.google.com/open?id=1wzBDc4u7YJUwObxF0lDAHkSiInEKcgmH"
+          href="https://drive.google.com/file/d/1nWxMbryXqUAWB5i0gEZDV9XviOuLeiDv"
           color="transparent"
           target="_blank"
           className={classes.navLink}
