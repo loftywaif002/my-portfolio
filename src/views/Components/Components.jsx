@@ -105,7 +105,32 @@ class Components extends React.Component {
                         tabContent: (
                           <GridContainer justify="center">
                             <GridItem xs={12}>
-        {/*First Item for Recent Work Tab*/}
+      {/*First Item for Recent Work Tab*/}
+                            <div className={classes.postItem}>
+                              <a href="https://www.amax.com" target="_blank" rel="noopener noreferrer">
+                              <h5 className={classes.postSubTitle}>Audiobyte Inc.</h5>
+                              </a>                                                         
+                               <div clasName={classes.postBody}>
+                               <div className={classes.content}>
+                                  <h4 className={classes.postSubTitle}>next.js+react+redux+aws</h4>
+                                  <h4 className={classes.postSubTitle}>React Web App Using SSR</h4>
+                                  <h4 className={classes.postSubTitle}>
+                                  <a href="https://www.gifnote.com">www.gifnote.com</a> &nbsp;
+                                  <a href="https://admin.gifnote.com">www.rednote.com</a>
+                                  </h4>
+                                <h2 className={classes.postTitle}>Next.js Web App</h2>
+                                <h4 className={classes.postSubTitle}>Tech Stack (Next.js+PostgresQl+Node.js)</h4>
+                                 <ul>
+                                <li>	Integrated oEmbed format to enable Gifs and Music clips as shareable URL on third party sites.</li>
+                                <li>	Used React + Redux library to develop song clipping feature using Wavesurfer.js.</li>
+                                <li>	Worked on custom data analytics tool to visualize effectiveness of events triggered by users. Used pm2 for Node.js processes and firebase as task queue. Used Git and GitHub as version control tools.</li>
+                                <li>	Developed complex SQL queries using Sequelize with PostgreSQL on RDS. Wrote unit tests using Jest.</li>
+                                <li>	Developed and deployed web applications on EC2 instances using AWS code deploy and code pipeline.</li>
+                                 </ul>
+                               </div>
+                              </div>                     
+                             </div>
+        {/*Second Item for Recent Work Tab*/}
                              <div className={classes.postItem}>
                               <h5 className={classes.postSubTitle}>White Cloud Apps Inc.</h5>
                                <a href="http://www.helprope.org/">                                                           
@@ -133,7 +158,7 @@ class Components extends React.Component {
                                  onMouseLeave={this.hoverOff} 
                                  >Github: private repo</a>
                              </div>
-        {/*Second Item for Recent Work Tab*/}
+        {/*Third Item for Recent Work Tab*/}
                               <div className={classes.postItem}>
                               <a href="https://www.amax.com" target="_blank" rel="noopener noreferrer">
                               <h5 className={classes.postSubTitle}>Amax Engineering Corp.</h5>
@@ -169,7 +194,7 @@ class Components extends React.Component {
                                </div>
                               </div>                     
                              </div>
-      {/*Third Item for Recent Work*/}
+      {/*Fourth Item for Recent Work*/}
                              <div className={classes.postItem}>
                               <h5 className={classes.postSubTitle}>Edigree Inc.</h5>
                                <a href="http://www.helprope.org/">                                                           
